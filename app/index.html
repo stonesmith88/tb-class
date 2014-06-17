@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>jt class</title>
+        <title>jt-class</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
@@ -31,12 +31,16 @@
 
         </div>
 
-        <script type="text/template">
+        <script type="text/template" id="splash-view-template">
         <div class="post">
         <img src="">
         <h4>capt.</h4>
         </div>
         </script>
+
+
+
+
 
 
         <!-- build:js scripts/vendor.js -->
@@ -57,6 +61,9 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/model.js"></script>
+        <script src="scripts/view.js"></script>
+        <script src="scripts/router.js"></script>
         <!-- endbuild -->
 </body>
 </html>
